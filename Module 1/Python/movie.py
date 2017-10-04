@@ -1,3 +1,4 @@
+import webbrowser
 class Movie():
 
     # Every class has a init function
@@ -9,3 +10,6 @@ class Movie():
         self.storyline = movie_storyline
         self.poster_image = movie_poster_image
         self.trailer = movie_trailer
+
+    def show_trailer(self):
+        webbrowser.open(self.trailer)

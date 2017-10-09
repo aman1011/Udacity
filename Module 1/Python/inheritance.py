@@ -6,6 +6,11 @@ class Parent():
         self.last_name = last_name
         self.eye_color = eye_color
 
+    def show_info(self):
+        print("Last name is " + self.last_name)
+        print("Eye color is " + self.eye_color)
+
+
 class Child(Parent):
 
     """ This is a child class inheriting last name and eye color
@@ -18,10 +23,12 @@ class Child(Parent):
 
 
 # instantiating the class.
-#billy_joe = Parent("joe", "blue")
+billy_joe = Parent("joe", "blue")
+billy_joe.show_info()
+
 #print(billy_joe.last_name)
 
 # instantiating the class child.
-silly_joe = Child("joe", "blue", 5)
-print(silly_joe.last_name)
-print(silly_joe.no_of_toys)
+#silly_joe = Child("joe", "blue", 5)
+#print(silly_joe.last_name)
+#print(silly_joe.no_of_toys)

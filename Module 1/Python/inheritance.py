@@ -29,6 +29,7 @@ billy_joe.show_info()
 #print(billy_joe.last_name)
 
 # instantiating the class child.
-#silly_joe = Child("joe", "blue", 5)
-#print(silly_joe.last_name)
-#print(silly_joe.no_of_toys)
+silly_joe = Child("joe", "blue", 5)
+print(silly_joe.last_name)
+print(silly_joe.no_of_toys)
+silly_joe.show_info()

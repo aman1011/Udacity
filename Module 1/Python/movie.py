@@ -1,6 +1,8 @@
 import webbrowser
 class Movie():
 
+    # declaring the documentation.
+    """ This is a class made for Udacity's Full Stack NanoDegree programme's first project """
     # declaring a claas variable.
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 

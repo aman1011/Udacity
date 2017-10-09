@@ -1,6 +1,9 @@
 import webbrowser
 class Movie():
 
+    # declaring a claas variable.
+    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
+
     # Every class has a init function
     # otherwise known as constructor
     # which gets called upon while creating

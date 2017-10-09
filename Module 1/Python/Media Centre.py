@@ -51,4 +51,9 @@ deathly_hallow_second = movie.Movie("Harry Potter and the Deathly Hallows - Part
 
 # using fresh_tomatoes method to display as website.
 movies = [sorcerer_stone, chamber_of_secret, prisoner_of_azkaban, goblet_of_fire, order_of_phoenix, half_blood_prince, deathly_hallow_first, deathly_hallow_second]
-fresh_tomatoes.open_movies_page(movies)
+
+# call the already built function,
+#fresh_tomatoes.open_movies_page(movies)
+
+# printing the newly defined class variable.
+print(movie.Movie.VALID_RATINGS)

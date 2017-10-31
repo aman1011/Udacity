@@ -64,7 +64,7 @@ header {
 
 .container {
 	display: flex;
-	flex: flex-wrap;
+	flex-wrap: wrap;
 }
 
 .section {

@@ -27,6 +27,7 @@ header {
 	font-size: 100%;
 	margin: 0.75%;
 	color: #2d3c49;
+	float: right;
 }
 
 .palatte {
@@ -85,7 +86,7 @@ figure {
 }
 
 .Theseus {
-	float: center;
+	float: left;
 }
 
 .Sparta {
@@ -97,3 +98,4 @@ figure {
 	.Theseus { width: 100%, order: 2; }
 	.Sparta {width: 100%, order: 3;}
 }
+

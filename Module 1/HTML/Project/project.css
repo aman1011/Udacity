@@ -2,10 +2,12 @@ header {
 	border-bottom-color: #7d97ad;
 	border-bottom-style: solid;
 	display: block;
-	margin: 50px;
-	height: 200px;
-	margin-left: 200px;
+	margin-top: 50px;
+	height: 15%;
+	margin-left: 15%;
+	margin-right: 7.5%;
 }
+
 .name {
 	text-align: right;
 	font-family: Calibri;
@@ -14,13 +16,84 @@ header {
 	color: #2d3c49;
 	padding-top: 5px;
 }
+
 .logo {
 	float: left;
 }
+
 .designation {
 	text-align: right;
 	font-family: Calibri;
 	font-size: 25px;
 	margin: 10px;
 	color: #2d3c49;
+}
+
+.palatte {
+	float: left;
+}
+
+.image {
+	margin: 50px;
+	margin-bottom: 25px;
+	margin-left: 200px;
+}
+
+#featured {
+	color: #7d97ad;
+	font-family: Calibri;
+	font-size: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#captions {
+	text-align: center;
+	color: #2d3c49;
+	font-family: Calibri;
+	font-size: 40px;
+	margin: 5px;
+}
+
+#description {
+	text-align: center;
+	font-size: 15px;
+	font-family: Calibri;
+	margin: 5px;
+}
+
+.container {
+	display: flex;
+	flex: flex-wrap;
+}
+
+section {
+	margin: 25px;
+	margin-top: 0px;
+	margin-left: 200px;
+}
+
+figure {
+	margin-left: 0px;
+	margin-top: 5px;
+	max-width: 300px;
+	max-height: 200px;
+}
+
+.Acamas {
+	float: left;
+}
+
+.Theseus {
+	float: center;
+}
+
+.Sparta {
+	float: right;
+}
+
+@media screen (min-width: 400px) {
+	.Acamas { width: 100%, order: 1; }
+	.Theseus { width: 100%, order: 2; }
+	.Sparta {width: 100%, order: 3;}
 }

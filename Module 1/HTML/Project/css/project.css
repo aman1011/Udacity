@@ -11,10 +11,11 @@ header {
 .name {
 	text-align: right;
 	font-family: Calibri;
-	font-size: 220%;
 	margin: 0.75%;
 	color: #2d3c49;
 	padding-top: 0.75%;
+	max-width: 100%;
+	height: auto;
 }
 
 .logo {
@@ -23,14 +24,16 @@ header {
 	height: auto;
 }
 
-.designation {
-	text-align: right;
-	font-family: Calibri;
-	font-size: 100%;
-	margin: 0.75%;
-	color: #2d3c49;
-	float: right;
-	float: right;
+#designation {
+	font-size: 200%;
+	margin: auto;
+	margin-bottom: 1%;
+}
+
+#fullname {
+	font-size: 500%;
+	margin: auto;
+	margin-bottom: 5%;
 }
 
 .palatte {

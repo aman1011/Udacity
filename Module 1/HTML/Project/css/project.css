@@ -19,6 +19,8 @@ header {
 
 .logo {
 	float: left;
+	max-width: 100%;
+	height: auto;
 }
 
 .designation {
@@ -39,6 +41,8 @@ header {
 	margin: 3.25%;
 	margin-bottom: 3.25%;
 	margin-left: 15%;
+	max-width: 100%;
+	height: auto;
 }
 
 #featured {

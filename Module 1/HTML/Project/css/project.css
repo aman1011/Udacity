@@ -98,7 +98,7 @@ figure {
 }
 
 .sparta {
-	float: right;
+	float: left;
 }
 
 @media screen (min-width: 0px) and (max-width: 400px) {

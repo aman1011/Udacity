@@ -82,21 +82,21 @@ figure {
 	max-height: 64.5%;
 }
 
-.Acamas {
+.acamas {
 	float: left;
 }
 
-.Theseus {
+.theseus {
 	float: left;
 }
 
-.Sparta {
+.sparta {
 	float: right;
 }
 
 @media screen (min-width: 0px) and (max-width: 400px) {
-	.Acamas { width: 100%, order: 1; }
-	.Theseus { width: 100%, order: 2; }
-	.Sparta {width: 100%, order: 3;}
+	.acamas { width: 100%, order: 1; }
+	.theseus { width: 100%, order: 2; }
+	.sparta {width: 100%, order: 3;}
 }
 
